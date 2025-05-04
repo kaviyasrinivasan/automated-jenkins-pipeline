@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven' // Use the name from Global Tool Config
+        maven 'Maven' // Match this to your Global Tool Config name
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/kaviyasrinivasan/automated-jenkins-pipeline.git'
+                checkout scm
             }
         }
 
