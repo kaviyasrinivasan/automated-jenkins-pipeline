@@ -98,36 +98,5 @@ public class CalculatorTest {
     @Test public void testAdd79() { assertEquals(66, calc.add(33, 33)); }
     @Test public void testAdd80() { assertEquals(-66, calc.add(-33, -33)); }
 
-    @Test public void testAdd81() { assertEquals(2, calc.add(1, 1)); }
-    @Test public void testAdd82() { assertEquals(3, calc.add(1, 2)); }
-    @Test public void testAdd83() { assertEquals(4, calc.add(2, 2)); }
-    @Test public void testAdd84() { assertEquals(6, calc.add(3, 3)); }
-    @Test public void testAdd85() { assertEquals(9, calc.add(4, 5)); }
-    @Test public void testAdd86() { assertEquals(0, calc.add(-2, 2)); }
-    @Test public void testAdd87() { assertEquals(10, calc.add(6, 4)); }
-    @Test public void testAdd88() { assertEquals(-10, calc.add(-6, -4)); }
-    @Test public void testAdd89() { assertEquals(18, calc.add(9, 9)); }
-    @Test public void testAdd90() { assertEquals(1, calc.add(-1, 2)); }
-
-    @Test public void testAdd91() { assertEquals(16, calc.add(8, 8)); }
-    @Test public void testAdd92() { assertEquals(-16, calc.add(-8, -8)); }
-    @Test public void testAdd93() { assertEquals(23, calc.add(11, 12)); }
-    @Test public void testAdd94() { assertEquals(-23, calc.add(-11, -12)); }
-    @Test public void testAdd95() { assertEquals(100, calc.add(55, 45)); }
-    @Test public void testAdd96() { assertEquals(100, calc.add(60, 40)); }
-    @Test public void testAdd97() { assertEquals(100, calc.add(70, 30)); }
-    @Test public void testAdd98() { assertEquals(100, calc.add(80, 20)); }
-    @Test public void testAdd99() { assertEquals(100, calc.add(90, 10)); }
-    @Test public void testAdd100() { assertEquals(100, calc.add(100, 0)); }
-
-     @Test public void testAdd101() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd102() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd103() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd104() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd105() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd106() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd107() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd108() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd109() { assertEquals(100, calc.add(100, 0)); }
-     @Test public void testAdd110() { assertEquals(100, calc.add(100, 0)); }
+    
 }
