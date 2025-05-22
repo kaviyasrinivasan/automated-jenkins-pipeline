@@ -119,4 +119,15 @@ public class CalculatorTest {
     @Test public void testAdd98() { assertEquals(100, calc.add(80, 20)); }
     @Test public void testAdd99() { assertEquals(100, calc.add(90, 10)); }
     @Test public void testAdd100() { assertEquals(100, calc.add(100, 0)); }
+
+     @Test public void testAdd101() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd102() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd103() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd104() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd105() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd106() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd107() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd108() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd109() { assertEquals(100, calc.add(100, 0)); }
+     @Test public void testAdd110() { assertEquals(100, calc.add(100, 0)); }
 }
